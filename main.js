@@ -13,7 +13,7 @@ $('pre, code, mark, .mark, kbd').attr('no-attribution','');
 // Highlighter
 for(var pres=document.querySelectorAll("pre,code,kbd,blockquote,td,mark,span.mark"),i=0;i<pres.length;i++)pres[i].addEventListener("dblclick",function(){var e=getSelection(),t=document.createRange();t.selectNodeContents(this),e.removeAllRanges(),e.addRange(t)},!1);
 loadJS('https://raw.githack.com/webtuts/jsUnpackerFiles/master/highlight.min.js');
-if(window.location.href.indexOf("softwebtuts")>-1){return true}else{setTimeout(function(){window.location.href='http://sayemtutorial.blogspot.com'},3000)}});
+if(window.location.href.indexOf("softwebtuts")>-1){return true}else()}});
 /*Responsive - LazyLoad Iframe*/
 $(window).on("resize scroll",function(){
 $("iframe[original]").each(function(){isInView($(this))&&($(this).attr("src",$(this).attr("original")),$(this).removeAttr("original"))});
