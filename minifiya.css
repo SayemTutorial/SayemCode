@@ -465,13 +465,6 @@ blockquote:after,.rtl blockquote:before{content:'\f10e';margin:0 0 0 10px}
 .post-body b strike{text-decoration:line-through}
 .post-body strike{background-color:#ffffff80;font-family:Monospace;font-size:12px;color:blue;text-decoration:none;padding:1px 5px;margin:0 2px 0 0;border:1px dashed #e9ebee;border-radius:3px;}
 .post-body span.strike{background-color:#ffffff80;font-family:Monospace;font-size:12px;color:blue;text-decoration:none;padding:1px 5px;margin:0 2px 0 0;border:1px dashed #e9ebee;border-radius:3px;}
-.post-body pre {background-color: #383c41;border-bottom: 4px solid #337ab7;border-left: 4px solid #337ab7;border-right: 4px solid #337ab7;padding: 0;margin: .5em auto;position: relative;white-space: pre;word-wrap: break-word;word-break: normal;overflow: auto;tab-size: 2;hyphens: none;}
-.post-body pre code {display: block;color: #badaad;font-size: 13px;padding: 10px 15px;height: auto;line-height: 1.5em;white-space: pre;overflow: auto}
-.post-body pre mark, .post-body code mark, .post-body pre code mark {background-color: #fff;color: #333;margin: 0;padding: 0}
-.post-body pre.css:before {content: 'CSS'}
-.post-body pre.html:before {content: 'HTML'}
-.post-body pre.javascript:before {content: 'Javascript'}
-.post-body pre.html:before, .post-body pre.css:before, .post-body pre.javascript:before, .post-body pre.jquery:before {background-color: #337ab7;color: #fff;display: block;padding-left:15px}
 .post-body a{color:#29abe2}
 .post-body a:hover{text-decoration:underline}
 .post-body a.button{display:inline-block;height:40px;background-color:var(--button-bg);font-family:var(--body-font);font-size:16px;color:var(--button-color);font-weight:700;line-height:40px;text-align:center;text-decoration:none;cursor:pointer;padding:0 20px;margin:0 5px 5px 0;border-bottom:2px solid rgba(0,0,0,.1);border-radius:3px}
